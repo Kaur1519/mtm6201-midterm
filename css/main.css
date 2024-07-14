@@ -14,7 +14,7 @@
   --mobile-main-heading: 2.027rem;
   --mobile-heading: 1.802rem;
   --mobile-sub-heading: 1.424rem;
-  --mobile-button: 0.8rem;
+  --mobile-button: 1.1rem;
   --text: 1rem;
   --span: 1.2rem;
 
@@ -321,6 +321,30 @@ footer p{
   border: 0.1px solid gray;
 }
 /* css validator */
+
+/* styling all the buttons */
+.button{
+  font-family: var(--font-family-body-buttons);
+  font-size: var(--mobile-button);
+  font-weight: 900;
+  padding: 0.6rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border: none;
+}
+.one, .two{
+  background-color: var(--white);
+}
+.three{
+  background-color: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+.four{
+  background-color: var(--black);
+  color: var(--white);
+  border: 2px solid var(--white)
+}
 /* @media screen and (max-width: 767px) {
     .header-section2{
       background-image: url(../images/hero-background-720_x_1080.jpg);
