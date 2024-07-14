@@ -272,10 +272,6 @@ h2{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 1.2rem;
 }
 .review1{
   background-image: url(../images/testimonial-1-480_x_480.jpeg);
@@ -288,6 +284,16 @@ h2{
 .review3{
   background-image: url(../images/testimonial-3-480_x_480.jpeg);
   grid-area: review3;
+}
+.review-content1, .review-content2, .review-content3{
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  margin: 0 auto;
+  min-height: 470px;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .reviews{
   width: 100%;
