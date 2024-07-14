@@ -56,13 +56,16 @@
 /* styling nav links */
 nav li { 
   display: inline-block;
-    padding: 1.5rem;
-    padding-bottom: 0rem;
-    color: var(--white);
-    font-family: var(--font-family-heading-nav);
-    font-size: var(--mobile-button);
-    font-weight: 900;
+  padding: 1.5rem;
+  padding-bottom: 0rem;
 } 
+nav li a{
+  text-decoration: none;
+  color: var(--white);
+  font-family: var(--font-family-heading-nav);
+  font-size: var(--mobile-button);
+  font-weight: 900;
+}
 .header-section2{
     max-width: 100%;
     background-image: url(../images/hero-background-520_x_520.jpg);
