@@ -304,6 +304,23 @@ h2{
 }
 /* css valid */
 
+footer{
+  width: 100%;
+  margin: auto;
+  background-color: var(--black);
+  text-align: center;
+  min-height: 100px;
+  padding-top: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+footer p{
+  color: var(--white);
+}
+.line{
+  border: 0.1px solid gray;
+}
+/* css validator */
 /* @media screen and (max-width: 767px) {
     .header-section2{
       background-image: url(../images/hero-background-720_x_1080.jpg);
