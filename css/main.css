@@ -42,7 +42,7 @@
 /*adding max width for each section  */
 .wrapper{
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* styling header section1 */
@@ -118,8 +118,6 @@ span{
   font-size: var(--span);
   font-weight: 500;
 }
-/* css validate */
-
 .header-section2-content p{
   color: var(--white);
   padding-top: 0.5rem;
@@ -127,53 +125,47 @@ span{
   padding-left: 3rem;
   padding-right: 3rem;
 }
+/* css validate */
+
+/* styling the main section1 */
 .main-section1{
   background-color: var(--background-color);
   padding: 0.7rem;
-  padding-top:4.5rem;
-}
-.coffee-images{
-  width: 100%;
-  /* display: grid;  
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: 
-  
-  "beans pouring"
-  "cups employee";
-  grid-gap:1rem;
-  justify-self: center; */
-}
-
-.coffee-images .latte{
-  width: 100%;
-  padding-bottom: 0.8rem;
- 
+  padding-top: 5rem;
+  max-width: 100%;
 }
 .img-grid{
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 27px;
   display: grid;  
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); 
   grid-template-areas: 
+  "latte latte"
   "beans pouring"
   "cups employee";
-  grid-gap:1rem;
-}
-.coffee-images .beans{
+  grid-gap:1.3rem;
+} 
+.img-grid img{
   width: 100%;
-  grid-area: beans;
+  height: auto;
 }
-.coffee-images .pouring{
-  width: 100%;
+.img-grid .latte{
+  grid-area: latte;
+}
+.img-grid .beans{
+  grid-area: beans; 
+}
+.img-grid .pouring{
   grid-area: pouring;
 }
-.coffee-images .cups{
-  width: 100%;
+.img-grid .cups{
   grid-area: cups;
 }
-.coffee-images .employee{
-  width: 100%;
+.img-grid .employee{
   grid-area: employee;
-}
-
+} 
+/* css valid */
 h2{
   color: var(--black);
   
