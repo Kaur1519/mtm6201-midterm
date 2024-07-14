@@ -348,6 +348,46 @@ footer p{
   color: var(--white);
   border: 2px solid var(--white)
 }
+/* styling all links when they are in focus */
+a:focus{
+  outline: 2px solid var(--yellow-heading);
+  outline-offset: 5px;
+  border-radius: 20px ;
+}
+/* styling the skip-links */
+.skip-links a{
+  text-decoration: none;
+  background-color: var(--black);
+  color: white;
+  border-radius: 20px;
+  border: 2px solid var(--white);
+  padding: 0.8rem;
+  font-size: var(--mobile-button);
+  font-weight: 500;
+  font-family: var(--font-family-body-buttons);
+  position: absolute;
+  top: -3.5rem;
+}
+.skip-links a:focus{
+  top:0;
+}
+
+/* styling the back to top link */
+footer a{
+  text-decoration: none;
+  background-color: var(--black);
+  color: white;
+  border-radius: 20px;
+  border: 2px solid var(--white);
+  padding: 0.8rem;
+  font-size: var(--mobile-button);
+  font-weight: 500;
+  font-family: var(--font-family-body-buttons);
+  position: fixed;
+  bottom: 0.8rem;
+  right: 0.8rem;
+  z-index: 1000; 
+}
 /* @media screen and (max-width: 767px) {
     .header-section2{
       background-image: url(../images/hero-background-720_x_1080.jpg);
