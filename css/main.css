@@ -66,6 +66,9 @@ nav li a{
   font-size: var(--mobile-button);
   font-weight: 900;
 }
+nav li a:hover{
+  color: var(--yellow-heading)
+}
 .header-section2{
     max-width: 100%;
     background-image: url(../images/hero-background-520_x_520.jpg);
@@ -340,6 +343,7 @@ footer p{
   padding-right: 2rem;
   padding-left: 2rem;
   border: none;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 .one, .two{
   background-color: var(--white);
@@ -353,6 +357,19 @@ footer p{
   background-color: var(--black);
   color: var(--white);
   border: 2px solid var(--white)
+}
+/* styling buttons on hover */
+.one:hover , .two:hover{
+  background-color: var(--icon);
+  color: var(--white);
+  border: 3px solid var(--white);
+}
+.three:hover{
+  background-color: var(--white);
+  color: var(--black);
+}
+.four:hover{
+  background-color: var(--icon);
 }
 /* styling all links when they are in focus */
 a:focus{
@@ -393,7 +410,13 @@ footer a{
   bottom: 0.8rem;
   right: 0.8rem;
   z-index: 1000; 
+  transition: background-color 0.3s;
 }
+/* back to top on hover */
+footer a:hover{
+  background-color: var(--icon);
+}
+
 /* @media screen and (max-width: 767px) {
     .header-section2{
       background-image: url(../images/hero-background-720_x_1080.jpg);
