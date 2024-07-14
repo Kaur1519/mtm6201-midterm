@@ -1,0 +1,217 @@
+:root{
+  --background-color: #f3f0e9;
+  --black: #000000;
+  --white: #ffffff;
+  --yellow-heading: #d69e3d;
+  --icon: #966f2c;
+
+  
+  /* for font family */
+  --font-family-heading-nav: "lato", sans-serif;
+  --font-family-body-buttons: "Karla", sans-serif;
+
+  /* for mobile font */
+  --mobile-main-heading: 2.027rem;
+  --mobile-heading: 1.802rem;
+  --mobile-sub-heading: 1.424rem;
+  --mobile-button: 0.8rem;
+  --text: 1rem;
+  --span: 1.2rem;
+
+  /* for tablet font */
+  --tablet-main-heading: 2.986rem;
+  --tablet-heading: 2.488rem;
+  --tablet-sub-heading: 1.728rem;
+
+  /* for desktop font */
+  --desktop-main-heading: 3.815rem;
+  --desktop-heading: 3.052rem;
+  --desktop-sub-heading: 1.953rem;
+  
+}
+  html{
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+
+/*adding max width for each section  */
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* styling header section1 */
+.header-section1{
+    max-width: 100%;
+    background-color: var(--black);
+    padding: 1.6rem;
+    text-align: center;
+}
+
+/* styling nav links */
+nav li { 
+  display: inline-block;
+    padding: 1.5rem;
+    padding-bottom: 0rem;
+    color: var(--white);
+    font-family: var(--font-family-heading-nav);
+    font-size: var(--mobile-button);
+    font-weight: 900;
+} 
+.header-section2{
+    max-width: 100%;
+    background-image: url(../images/hero-background-520_x_520.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 420px;
+}
+.header-section2-content{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  min-height: 420px;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4.8rem;
+}
+/* styling the hero heading */
+h1{
+  color: var(--white);
+  font-size: var(--mobile-main-heading);
+  font-family: var(--font-family-heading-nav);
+  font-weight: 900;
+  line-height: 2.5rem;
+}
+/* styling all the paragraphs */
+p{
+  font-size: var(--text);
+  font-family: var(--font-family-body-buttons);
+  line-height: 1.3rem;
+}
+
+/* styling all the h2 */
+h2{
+  font-size: var(--mobile-heading);
+  font-family: var(--font-family-heading-nav);
+  font-weight: 750;
+  line-height: 2.1rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+/* styling all the h3 */
+h3{
+  font-size: var(--mobile-sub-heading);
+  font-family: var(--font-family-heading-nav);
+  font-weight: 750;
+  padding-bottom: 0.7rem;
+}
+/* styling all the span text*/
+span{
+  color: var(--yellow-heading);
+  font-family: var(--font-family-body-buttons);
+  font-size: var(--span);
+  font-weight: 500;
+}
+/* css validate */
+
+.header-section2-content p{
+  color: var(--white);
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.main-section1{
+  background-color: var(--background-color);
+  padding: 0.7rem;
+  padding-top:4.5rem;
+}
+.coffee-images{
+  width: 100%;
+  /* display: grid;  
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+  
+  "beans pouring"
+  "cups employee";
+  grid-gap:1rem;
+  justify-self: center; */
+}
+
+.coffee-images .latte{
+  width: 100%;
+  padding-bottom: 0.8rem;
+ 
+}
+.img-grid{
+  display: grid;  
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+  "beans pouring"
+  "cups employee";
+  grid-gap:1rem;
+}
+.coffee-images .beans{
+  width: 100%;
+  grid-area: beans;
+}
+.coffee-images .pouring{
+  width: 100%;
+  grid-area: pouring;
+}
+.coffee-images .cups{
+  width: 100%;
+  grid-area: cups;
+}
+.coffee-images .employee{
+  width: 100%;
+  grid-area: employee;
+}
+
+h2{
+  color: var(--black);
+  
+ 
+ 
+}
+.main-section2{
+  text-align: center;
+
+}
+.card{
+  width: 100%;
+  padding: calc( 100% - 95% );
+  text-align: center;
+
+  
+}
+.card-img{
+  width:40%;
+  padding-bottom: 20px;
+  text-align: center;
+  
+}
+
+/* @media screen and (max-width: 767px) {
+    .header-section2{
+      background-image: url(../images/hero-background-720_x_1080.jpg);
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
+    .header-section2{
+      background-image: url(../images/hero-background-1900_x_1060.jpg);
+    }
+  }
+
+  @media and (min-width: 768px) {
+    .header-section2{
+      background-image: url(../images/hero-background-960_x_1440.jpg);
+    } 
+} */
