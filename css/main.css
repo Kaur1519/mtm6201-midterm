@@ -176,7 +176,7 @@ h2{
   text-align: center;
   padding: 0.7rem;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 4.5rem;
   background-color: var(--background-color);
 }
 .card{
@@ -222,6 +222,34 @@ h2{
   margin: auto;
   display: grid;
   grid-gap: 100px;
+}
+/* css valid */
+
+.main-section4{
+  width: 100%;
+  margin: auto;
+  padding: 0.7rem;
+  padding-top: 6.1rem;
+  padding-bottom: 4.5rem;
+  background-color: var(--background-color);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+  "img img"
+  "about about";
+  grid-gap: 1.3rem;
+}
+.main-section4 img{
+  width: 100%;
+  grid-area: img;
+}
+.main-section4-content{
+  width: 100%;
+  grid-area: about;
+}
+.journey{
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 /* css valid */
 
