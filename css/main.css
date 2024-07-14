@@ -253,6 +253,57 @@ h2{
 }
 /* css valid */
 
+.main-section5{
+  width: 100%;
+  margin: auto;
+  padding: 0.7rem;
+  padding-top: 6.1rem;
+  padding-bottom: 4.5rem;
+  background-color: var(--black);
+}
+
+.review1, .review2, .review3{
+  width: 100%;
+  margin: 0 auto;
+  min-height: 470px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.2rem;
+}
+.review1{
+  background-image: url(../images/testimonial-1-480_x_480.jpeg);
+  grid-area: review1;
+}
+.review2{
+  background-image: url(../images/testimonial-2-480_x_480.jpeg);
+  grid-area: review2;
+}
+.review3{
+  background-image: url(../images/testimonial-3-480_x_480.jpeg);
+  grid-area: review3;
+}
+.reviews{
+  width: 100%;
+  margin: auto;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+  "review1 review1 review1"
+  "review2 review2 review2"
+  "review3 review3 review3"
+  ;
+  grid-gap: 1.3rem;
+}
+.main-section5 h2, .main-section5 p{
+  color: var(--white);
+}
+/* css valid */
+
 /* @media screen and (max-width: 767px) {
     .header-section2{
       background-image: url(../images/hero-background-720_x_1080.jpg);
