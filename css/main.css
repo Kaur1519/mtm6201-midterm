@@ -164,31 +164,31 @@ span{
 }
 .img-grid .employee{
   grid-area: employee;
-} 
-/* css valid */
+}
 h2{
   color: var(--black);
-  
- 
- 
-}
-.main-section2{
-  text-align: center;
+} 
+/* css valid */
 
+.main-section2{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--background-color);
 }
 .card{
-  width: 100%;
-  padding: calc( 100% - 95% );
+  max-width: 100%;
+  padding: 20px;
   text-align: center;
-
-  
 }
 .card-img{
-  width:40%;
+  max-width:40%;
   padding-bottom: 20px;
-  text-align: center;
-  
 }
+/* css valid */
 
 /* @media screen and (max-width: 767px) {
     .header-section2{
