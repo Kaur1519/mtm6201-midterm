@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <!-- add skip links to make keybord accesible -->
+    <div class="wrapper">
+        <ul class="skip-links">
+            <li><a href="#nav">Skip to Navigation</a></li>
+            <li><a href="#main">Skip to Main content</a></li>
+        </ul>
+    </div>
+
     <!-- header section -->
     <div class="wrapper">
         <!-- section1 of the header containing the logo and the nav -->
@@ -19,11 +27,11 @@
                 <div class="logo">
                     <img src="images/logo.svg" alt="Logo of My Coffee House">
                 </div>
-                <nav class="menu" role="navigation">
+                <nav class="menu" id="nav" role="navigation">
                     <ul>
-                        <li><a href="#about"></a>ABOUT US</li>
-                        <li><a href="#menu"></a>MENU</li>
-                        <li><a href="#location"></a>LOCATIONS</li>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#location">LOCATIONS</a></li>
                     </ul>
                 </nav>
             </header>
@@ -40,7 +48,7 @@
 <!-- html valid -->
 
     <!--main section1 -->
-    <div class="wrapper">
+    <div class="wrapper" id="main">
         <div class="main-section1">
             <span>WELCOME TO MY COFFEE HOUSE</span> 
             <h2>EXPERIENCE A NEW WAY TO TASTE COFFEE</h2>
@@ -86,12 +94,12 @@
         <div class="main-section3">
             <div class="main-section3-content">
                 <div class="location-menu">
-                    <div class="location">
+                    <div class="location" id="menu">
                         <span>OUR MENU</span>
                         <h2>EXPLORE WHAT  WE HAVE TO OFFER YOU</h2>
                         <button class="button two">EXPLORE OUR MENU</button>
                     </div>
-                    <div class="location">
+                    <div class="location" id="location">
                         <span>LOCATIONS</span>
                         <h2>FIND OUR NEAREST COFFEE SHOP</h2>
                         <button class="button three">VIEW LOCATIONS</button>
@@ -103,7 +111,7 @@
 <!-- html valid -->
 
      <!-- main section4 containg about us -->
-    <div class="wrapper">
+    <div class="wrapper" id="about">
         <div class="main-section4">
             <img src="images/about-us.jpeg" alt="">
             <div class="main-section4-content">
