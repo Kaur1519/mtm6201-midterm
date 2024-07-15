@@ -118,7 +118,7 @@ h3{
   padding-bottom: 0.7rem;
 }
 /* styling all the span text*/
-span{
+.text{
   color: var(--yellow-heading);
   font-family: var(--font-family-body-buttons);
   font-size: var(--span);
@@ -313,6 +313,9 @@ h2{
 }
 .main-section5 h2, .main-section5 p{
   color: var(--white);
+}
+.main-section5 .text{
+  color: var(--yellow-heading);
 }
 /* css valid */
 
