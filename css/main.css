@@ -594,3 +594,23 @@ footer a:hover{
         padding-right: 9rem;
       }
 }
+/* appling animation */
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.header-section2-content,
+.main-section1-content,
+.main-section2,
+.main-section3-content,
+.main-section4-content,
+.main-section5-content{
+  opacity: 0;
+  animation: fadein 2s ease-in-out forwards 0.5s;
+}
+/* css valid */
